@@ -104,10 +104,54 @@ body {
   font-size: 40px;
   text-align: center;
   padding: 15px;
+  height: 75px;
 }
 .finish .good {
   color: var(--main-color);
 }
 .finish .bad {
   color: red;
+}
+.message select {
+  border: 2px solid black;
+  background-color: rgb(134, 248, 248);
+  padding: 5px;
+  border-radius: 3px;
+  outline: none;
+  font-weight: bold;
+}
+
+.message select option {
+  font-weight: bold;
+}
+
+.reload {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #009688;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 20px 0px;
+  /* background-color: white; */
+  padding: 10px;
+  width: 100%;
+}
+
+.cards div {
+  background-color: #009688;
+  padding: 50px;
+  color: white;
+}
+
+.cards div h1 {
+  margin: -10px 10px 20px -40px;
 }

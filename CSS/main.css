@@ -1,0 +1,62 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-image: url(../images/background.webp);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "League Gothic", sans-serif;
+}
+section {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: black;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px #e0f5fa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.9;
+}
+
+section h1 {
+  font-size: 50px;
+  text-shadow: 0 0 10px white;
+}
+
+section p {
+  font-size: 40px;
+  padding: 0 10px;
+  text-align: center;
+  line-height: 1.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 0 10px white;
+  color: black;
+}
+
+section a {
+  text-decoration: none;
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  transition: 0.3s;
+}
+
+section a:hover {
+  background-color: gray;
+  color: white;
+}
